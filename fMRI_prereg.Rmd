@@ -49,13 +49,13 @@ Any level of information you want to include about the gap your study is address
 
 ### Aims & Hypotheses
 
-| Essential | Checklist |
+| **Essential | Checklist** |
 | ----------- | ----------- |
 | Hypotheses include direction of expected results |    ___ |
 | Interactions describe expected shape |     ___ or NA | 
 | Maniputated variables include manipulation checks or explain why not |    ___ or NA | 
 
-| Recommended | Checklist |
+| **Recommended | Checklist** |
 | ----------- | ----------- |
 | Figure or table to describe expected results |    ___ |
 | Rationals or frameworks included for why certain hypotheses are being tested |     ___ | 
@@ -101,7 +101,7 @@ Please describe the process by which you will collect your data. If your data ar
 
 After your paragraph, use the table as a checklist to ensure you included all information suggested for reproducible results.
 
-| Collection | Checklist |
+| **Collection | Checklist** |
 | ----------- | ----------- |
 | Population |     ___ |
 | Recruitment efforts  |     ___ |
@@ -132,7 +132,7 @@ Provide a justification for target or current sample size and rationale for why 
 Power analyses (e.g., Neuropowertools, fmri power)
 	From Nichols et al., 2016, include: 
 		
-| Effect Size Estimate | Checklist |
+| **Effect Size Estimate | Checklist** |
 | ----------- | ----------- |
 | Effect size used |     ___ or NA* |
 | Source of predicted effect size (prior lit, pilot etc.) |     ___ or NA* |
@@ -214,7 +214,7 @@ For all tables, you can fill in the table or write paragraph below as you would 
 
 **Design Specifications**
 
-| Design | Checklist |
+| **Design | Checklist** |
 | ----------- | --- |
 | Design type (task, rest; event-related, block) |     ___ |
 | Conditions & Stimuli (detailed as possible, pictures encouraged) |     ___ |	
@@ -226,7 +226,7 @@ For all tables, you can fill in the table or write paragraph below as you would 
 
 **Task Specification **
 
-| Task | Checklist |
+| **Task | Checklist** |
 | ----------- | --- |
 | Instructions to subjects (what were they asked to do?) |     ___ | 	
 | Stimuli (what were they; how many were there; did it repeat across trials?)	 |     ___ |
@@ -245,7 +245,7 @@ Use table as checklist of topics covered in your paragraph on data acquisition.
 
 Set up & Acquisitions
 
-| Set up & Acquisitions | Checklist |
+| **Set up & Acquisitions | Checklist** |
 | ----------- | --- |
 | **Participant Preparation** 
 | Mock scanning (Report type of mock scanner and protocol; i.e. duration, types of sim scans, exper)	| ___ or NA |
@@ -298,11 +298,9 @@ Set up & Acquisitions
 | Scan duration (in seconds)     |     ___ or NA |
 Other non-standard procedures    |     ___ or NA |
 | T1 stabilization (discarded “dummy” scans acquired discarded by scanner)    |     ___ or NA |
-|Diffusion MRI gradient table (Also referred to as the b­matrix, but not to be confused with the 3×3 matrix that describes diffusion weighting for a single diffusion weighted measurement)     |     ___ or NA |
+|Diffusion MRI gradient table (Also referred to as the b­matrix, but not to be confused with the 3×3 matrix that describes diffusion weighting for a single diffusion weighted measurement) scanner-side preprocessing: (e.g., Including: Reconstruction matrix size differing from acquisition matrix size; Prospective-motion correction (including details of any optical tracking, and how motion parameters are used); Signal inhomogeneity correction; Distortion-correction.)      |     ___ or NA |
 
-scanner-side preprocessing: (e.g., Including: Reconstruction matrix size differing from acquisition matrix size; Prospective-motion correction (including details of any optical tracking, and how motion parameters are used); Signal inhomogeneity correction; Distortion-correction.)
-
-| Perfusion: Arterial Spin Labelling MRI | Checklist |
+| **Perfusion: Arterial Spin Labelling MRI | Checklist** |
 | ----------- | ----- |
 | ASL Labelling method (e.g. continuous ASL (CASL), pseudo­continuous ASL (PCASL), Pulsed ALS (PASL), velocity selective ASL (VSASL)     |     ___ or NA |
 | Use of background suppression pulses and their timing     |     ___ or NA |
@@ -338,7 +336,7 @@ For extended checklist guidelines for this section following data analysis, see 
 ## Preprocessing
 Can fill in the table or write paragraph below as you would for paper and use table as checklist of topics covered.
 
-| Preliminary quality control | Checklist | 
+| **Preliminary quality control | Checklist** | 
 | ----------- | --- |
 | Motion monitoring (For functional or diffusion acquisitions, any visual or quantitative checks for severe motion; likewise, for structural images, checks on motion or general image quality.) |    ___ |	
 | Incidental findings (Protocol for review of any incidental findings, and how they are handled in particular with respect to possible exclusion of a subject’s data.)	|    ___ |	
@@ -349,7 +347,7 @@ ___ For each piece of software used, give the version number (or, if no version 
 
 ___ If any subjects required different processing operations or settings in the analysis, those differences should be specified explicitly
 
-| Pre-processing: general	| Checklist |
+| **Pre-processing: general	| Checklist** |
 | ----------- | --- |
 | Specify order of preprocessing operations 	|    ___ |		
 | Describe any data quality control measures		|    ___ |	
@@ -357,14 +355,14 @@ ___ If any subjects required different processing operations or settings in the 
 | Slice timing correction		|    ___ |	
 | Reference slice and type of interpolation used (e.g., “Slice timing correction to the first slice as performed, using SPM5's | Fourier phase shift interpolation”)		|    ___ |	
 | Motion correction		|    ___ |	
-| Reference scan, image similarity metric, type of interpolation used, degrees-of-freedom (if not rigid body) and, ideally, | optimization method, e.g., “Head motion corrected with FSL's MCFLIRT by maximizing the correlation ratio between each timepoint and the middle volume, using linear interpolation.”	 	|    ___ |	
+| Reference scan, image similarity metric, type of interpolation used, degrees-of-freedom (if not rigid body) and, ideally, optimization method, e.g., “Head motion corrected with FSL's MCFLIRT by maximizing the correlation ratio between each timepoint and the middle volume, using linear interpolation.”	 	|    ___ |	
 | Motion susceptibility correction used		|    ___ |	
 | Smoothing	|    ___ |	
-| Size and type of smoothing kernel (provide justification for size; e.g., for a group study, “12 mm FHWM Gaussian smoothing | applied to ameliorate differences in intersubject localization”; for single subject fMRI “6 mm FWHM Gaussian smoothing used | to reduce noise”)	|    ___ |	
+| Size and type of smoothing kernel (provide justification for size; e.g., for a group study, “12 mm FHWM Gaussian smoothing applied to ameliorate differences in intersubject localization”; for single subject fMRI “6 mm FWHM Gaussian smoothing used | to reduce noise”)	|    ___ |	
 	
 
 
-| Intersubject registration	| Checklist |
+| **Intersubject registration	| Checklist** |
 | ----------- | --- |
 | Intersubject registration method used		|    ___ |
 | Illustration of the voxels present in all subjects (“mask image”) can be helpful, particularly for restricted fields of view (to illustrate overlap of slices across all subjects). Better still would be an indication of average BOLD sensitivity within each voxel in the mask		|    ___ |
@@ -383,7 +381,7 @@ ___ If any subjects required different processing operations or settings in the 
 | If MNI converted to Talairach, what method? e.g., Brett's mni2tal?	|    ___ |
 | How were anatomical locations (e.g., gyral anatomy, Brodmann areas) determined? (e.g., paper atlas, Talairach Daemon, manual inspection of individuals' anatomy, etc.)		|    ___ |
 | Smoothing	|    ___ |
-| Size and type of smoothing kernel (provide justification for size; e.g., for a group study, “12 mm FHWM Gaussian smoothing | applied to ameliorate differences in intersubject localization”; for single subject fMRI “6 mm FWHM Gaussian smoothing used | to reduce noise”)	|    ___ |
+| Size and type of smoothing kernel (provide justification for size; e.g., for a group study, “12 mm FHWM Gaussian smoothing applied to ameliorate differences in intersubject localization”; for single subject fMRI “6 mm FWHM Gaussian smoothing used | to reduce noise”)	|    ___ |
 	
 
 *Recommendations of fMRI details come from Nichols et al., 2016; Poldrack et al., 2008.
@@ -403,7 +401,7 @@ Remember to include package and package version used for each test.
 
 ### First level (fx) modeling
 
-| First level (fx) modeling | Checklist |
+| **First level (fx) modeling | Checklist** |
 | ----------- | --- |
 | *Event related design predictors*	
 | Modeled duration, if other than zero	|    ___ |
@@ -423,7 +421,7 @@ Remember to include package and package version used for each test.
 
 ### Second level (group) modeling
 
-| Second level (group) modeling |   ___ |
+| **Second level (group) modeling |   Checklist** |
 | ----------- | --- |
 | Statistical model and estimation method, inference type (mixed/random effects or fixed), e.g., “Mixed effects inference with one sample t-test on summary statistic” (SPM2/SPM5), e.g., “Mixed effects inference with Bayesian 2-level model with fast approximation to posterior probability of activation.” (FSL)	
 If fixed effects inference used, justify  	|    ___ |
@@ -438,8 +436,7 @@ with a covariance structure) 	|    ___ |
 | *Model type (Some suggested terms include:*
 | “Mass Univariate”  	|    ___ |
 | “Multivariate” (e.g. ICA on whole brain data)  	|    ___ |
-| “Mass Multivariate” (e.g. MANOVA on diffusion or morphometry tensor 	|    ___ |
-data)
+| “Mass Multivariate” (e.g. MANOVA on diffusion or morphometry tensor data)	|    ___ |
 | “Local Multivariate” (e.g. “searchlight”) 	|    ___ |
 | “Multivariate, intra­subject predictive” (e.g. classify individual trials in
 event­related fMRI) 	|    ___ |
@@ -466,14 +463,11 @@ constraints (e.g. positive weights only)  	|    ___ |
 
 ### ROI analysis
 
-| ROI analysis | Checklist |
+| **ROI analysis | Checklist** |
 | ----------- | --- |
-| How were ROIs defined	
- (e.g., functional, anatomical, parcel localizer)? 	  	|    ___ |	
-| How was signal extracted within ROI?	
-(e.g., average parameter estimates, FIR deconvolution?)	  	|    ___ |	
-| If percent signal change reported, how was scaling factor determined 
-(e.g., height of block regressor or height of isolated event regressor)?	  	|    ___ |
+| How were ROIs defined	(e.g., functional, anatomical, parcel localizer)? 	  	|    ___ |	
+| How was signal extracted within ROI? (e.g., average parameter estimates, FIR deconvolution?)	  	|    ___ |	
+| If percent signal change reported, how was scaling factor determined (e.g., height of block regressor or height of isolated event regressor)?	  	|    ___ |
 | Is change relative to voxel-mean, or whole-brain mean?	   	|    ___ |
 | Justify definition of ROI and analysis conducted with it: (e.g., if your ROI is defined based on the cluster;  how will you ensure your ROI analyses are not circular?)	  	|    ___ |
 
@@ -489,7 +483,7 @@ For all prompts and tables, can fill in the table or write paragraph below as yo
 
 
 
-| Statistical inference | Checklist |
+| **Statistical inference | Checklist**|
 | ----------- | --- |
 | Search region (Type of search region for analysis, and the volume in voxels or CC) 	|    ___ or NA |
 | If not whole brain, state how region was determined; method for constructing region should be independent of present statistic image	 	|    ___ or NA |
@@ -536,7 +530,7 @@ Multiple test correction (For mass­univariate, specify the type of correction a
 ### Functional Connectivity
 
 
-| Functional Connectivity | Checklist |
+| **Functional Connectivity | Checklist** |
 | ----------- | --- |
 | Confound adjustment & filtering Report:
 | Method for detecting movement artifacts, movement-related variation, and remediation (e.g. ‘scrubbing’, ‘despiking’, etc)		  	|    ___ or NA |
@@ -571,7 +565,7 @@ each region, e.g. averaging or first singular vector)		  	|    ___ or NA |
 | *Effectivity connectivity Report:*
 | Model 		  	|    ___ or NA | 
 | Algorithm used to fit model		  	|    ___ or NA | 
-| If per¬ subject model, method used to generalize inferences to population. ● Itemize models considered, and method used for model comparison		  	|    ___ or NA | 
+| If per subject model, method used to generalize inferences to population. Itemize models considered, and method used for model comparison		  	|    ___ or NA | 
 | *Graph analysis*
 | Report the ‘dependent variable’ and ‘functional connectivity measure’ used (see above). Specify either: 
 | Weighted graph analysis or 		  	|    ___ or NA | 
